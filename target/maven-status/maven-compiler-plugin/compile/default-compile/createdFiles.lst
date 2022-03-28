@@ -1,0 +1,10 @@
+StepObject\CvRegistrationSteps.class
+PageObject\UserLogIn.class
+DataObject\CompanyRegistrationData.class
+StepObject\FavoriteVacanciesSteps.class
+StepObject\UserLoginSteps.class
+PageObject\CvRegistration.class
+PageObject\FavoriteVacancies.class
+DataObject\CvRegistrationData.class
+DataObject\LoginData.class
+Utils\Runner.class

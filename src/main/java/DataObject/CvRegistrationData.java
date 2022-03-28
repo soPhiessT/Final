@@ -10,4 +10,10 @@ public interface CvRegistrationData {
             phone = "551616744";
 
 
+    String
+            wrongEmail = ".",
+            wrongPassword = ".",
+            wrongFirstName = ".",
+            wrongLastName = ".",
+            wrongPhone = ".";
 }

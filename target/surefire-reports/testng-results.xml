@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-13T15:09:28 GET" name="Automation Suite" finished-at="2022-03-13T15:09:37 GET" duration-ms="8488">
+  <suite started-at="2022-03-24T19:17:08 GET" name="Automation Suite" finished-at="2022-03-24T19:17:28 GET" duration-ms="20525">
     <groups>
     </groups>
-    <test started-at="2022-03-13T15:09:28 GET" name="TestSuit1" finished-at="2022-03-13T15:09:37 GET" duration-ms="8488">
-      <class name="FinalHR.TestHR">
-        <test-method is-config="true" signature="setup()[pri:0, instance:FinalHR.TestHR@54c562f7]" started-at="2022-03-13T15:09:28 GET" name="setup" finished-at="2022-03-13T15:09:33 GET" duration-ms="4757" status="PASS">
+    <test started-at="2022-03-24T19:17:08 GET" name="TestSuit1" finished-at="2022-03-24T19:17:28 GET" duration-ms="20525">
+      <class name="FinalHR.AddFavoriteVacancies">
+        <test-method is-config="true" signature="setup()[pri:0, instance:FinalHR.AddFavoriteVacancies@69b2f8e5]" started-at="2022-03-24T19:17:08 GET" name="setup" finished-at="2022-03-24T19:17:21 GET" duration-ms="13292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="cvRegistration()[pri:0, instance:FinalHR.TestHR@54c562f7]" started-at="2022-03-13T15:09:33 GET" name="cvRegistration" finished-at="2022-03-13T15:09:37 GET" duration-ms="3703" status="PASS">
+        <test-method signature="FavoriteVacancies()[pri:0, instance:FinalHR.AddFavoriteVacancies@69b2f8e5]" started-at="2022-03-24T19:17:21 GET" name="FavoriteVacancies" finished-at="2022-03-24T19:17:28 GET" duration-ms="7037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cvRegistration -->
-      </class> <!-- FinalHR.TestHR -->
+        </test-method> <!-- FavoriteVacancies -->
+      </class> <!-- FinalHR.AddFavoriteVacancies -->
     </test> <!-- TestSuit1 -->
   </suite> <!-- Automation Suite -->
 </testng-results>

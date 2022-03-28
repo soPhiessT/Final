@@ -15,7 +15,13 @@ public class CvRegistration {
                 lastNameValue = $(byAttribute("formcontrolname", "surname")),
                 phoneValue = $(byAttribute("formcontrolname", "phone")),
                 userNotRobot = $(byAttribute("role", "presentation")),
-                termsNconditionsValue = $(".mat-checkbox-inner-container");
-
-    }
+                termsNconditionsValue = $(".mat-checkbox-inner-container"),
+                registrationSubmit = $(".registration__submit"),
+                wrongSubmit = $(byText("აუცილებელი ველი")),
+                wrongEmail = $(byText("არასწორი ფორმატი")),
+                wrongPassword = $(byText("მინიმუმ 8 სიმბოლო")),
+                wrongFirstName = $(byText("არასწორი ფორმატი")),
+                wrongLastName = $(byText("არასწორი ფორმატი")),
+                wrongPhone = $(byText("არასწორი ფორმატი"));
+}
 

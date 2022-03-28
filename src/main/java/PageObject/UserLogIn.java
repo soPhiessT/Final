@@ -11,6 +11,8 @@ public class UserLogIn {
         userOnLoginPage = $(byText("სამუშაოს მაძიებლებისთვის")),
         emailInput = $(byAttribute("formcontrolname", "emailInput")),
         passwordInput = $(byAttribute("formcontrolname", "passwordInput")),
-        userLogIn = $(".signin-button__btn");
+        userLogIn = $(".signin-button__btn"),
+        wrongLogIn = $(byText("სისტემაში შესვლა ვერ მოხერხდა")),
+        userWrongLogIn = $(byText("გთხოვთ შეამოწმოთ თქვენი იმეილი და პაროლი"));
 
 }

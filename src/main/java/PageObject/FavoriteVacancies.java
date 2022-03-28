@@ -17,7 +17,9 @@ public class FavoriteVacancies {
     chooseDate = $(byText("გამოქვეყნების თარიღი")),
     chooseExactDate = $(byText("ბოლო 3 დღე")),
     pressSearch = $(byText("ძებნა")),
-    addFavoriteVacancy = $(".ann-heart-icon");
+    addFavoriteVacancy = $(".ann-heart-icon"),
+    goToFavorites = $(byText("რჩეულები")),
+    sendCV = $(byText("გაგზავნე CV"));
 
 
 }
